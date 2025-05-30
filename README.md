@@ -59,7 +59,6 @@ The **Integrated Food and Essentials Delivery Platform** is a full-stack web app
 
 - JWT-based secure login system
 - Tokens are stored client-side and validated with each API call
-- Admin access is protected using role-based control
 
 ---
 
@@ -84,3 +83,23 @@ The **Integrated Food and Essentials Delivery Platform** is a full-stack web app
    ```bash
    git clone https://github.com/your-username/integrated-delivery-platform.git
    cd integrated-delivery-platform
+2. **Set up .env files**
+   ```bash
+   MONGO_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   PAYPAL_CLIENT_ID=your_paypal_client_id
+4. **Setup Backend**
+   ```bash
+   cd backend
+   npm install
+   npm start
+6. **Setup Frontend**
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+8. **Setup Admin**
+   ```bash
+   cd admin
+   npm install
+   npm run dev
